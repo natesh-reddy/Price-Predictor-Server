@@ -17,7 +17,7 @@ def test_predict_route(client):
     """Test the /predict route using the actual predict function."""
     # Provide valid form data that matches what your model expects
     # This example assumes your model expects a single feature named 'feature1'
-    form_data = {'area': '10'}  # Adjust the form data as necessary
+    form_data = {'areaaa': '10'}  # Adjust the form data as necessary
 
     response = client.post('/predict', data=form_data)
     assert response.status_code == 200
