@@ -20,7 +20,7 @@ def test_predict_route(client):
     form_data = {'area': '10'}  # Adjust the form data as necessary
 
     response = client.post('/predict', data=form_data)
-    assert response.status_code == 20
+    assert response.status_code == 200
     # Check for a specific part of the response that indicates a successful prediction
     assert b'Price of House will be Rs.' in response.data
 
