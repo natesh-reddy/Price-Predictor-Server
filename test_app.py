@@ -30,3 +30,6 @@ def test_predict_route(client):
     expected_response = f'Price of House will be Rs. {expected_prediction}'.encode()
     assert expected_response in response.data, "The prediction value does not match the expected output"
 
+
+
+
