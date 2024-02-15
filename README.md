@@ -6,12 +6,16 @@ This API predicts the price of a house based on input features, currently it tak
 
 ### Prerequisites
 
-- Python 3
+- Python 3.8 or above
 
 ### Installation
 
 1. Clone the repository:
-  - git clone https://github.com/your_username/price-predictor-api.git
+  - git clone git@github.com:natesh-reddy/Price-Predictor-Server.git
+2. Change work directory -
+  - cd "Price-Predictor-Server"
+3. Install dependencies:
+  - pip install -r requirements.txt
 
 ### Usage
 1. Start the Flask server:
@@ -40,5 +44,5 @@ This API predicts the price of a house based on input features, currently it tak
 ## Examples
 
 - Predict
-   - curl http://localhost:8080/ - This will send a success message in return on terminal - "Hello, terminal user!"
+   - curl "http://localhost:8080/" - This will send a success message in return on terminal - "Hello, terminal user!"
    - Else navigate to http://localhost:8080 in your web browser to access the home page.
