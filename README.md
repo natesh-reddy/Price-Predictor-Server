@@ -11,7 +11,7 @@ This API predicts the price of a house based on input features, currently it tak
 ### Installation
 
 1. Clone the repository:
-  - git clone git@github.com:natesh-reddy/Price-Predictor-Server.git
+  - git clone "git@github.com:natesh-reddy/Price-Predictor-Server.git"
 2. Change work directory -
   - cd "Price-Predictor-Server"
 3. Install dependencies:
