@@ -68,6 +68,15 @@ This API predicts the price of a house based on input features, currently it tak
     - Create account on Circle CI and connect your github. Add the private SSH key as well while connecting
     - Create a config.yml file in the .circleci directory. We have created one job to build the testing for installing dependencies and running Test
     - Push any changes to github to trigger the testing pipeline on Circle CI
-    - 
+7. Configure AWS-EC2 instance:
+    - Create account on AWS and search for EC2 service
+    - Launch an instance and make sure to allow all traffic in the security group. Also create a new ssh-key pair, or use an existing one if already created
+8. Connect to EC2:
+    - Locally check permission of rsa keys - ls -al pem_key_file
+    - Change permission - chmod 600 pem_key_file
+    - Connect - ssh -I pem_key_file ec2-user@ipaddress
+9. 
+
+
 
 
