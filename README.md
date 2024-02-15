@@ -57,3 +57,13 @@ This API predicts the price of a house based on input features, currently it tak
     - Install pytest
     - Write the code inside test_filename.py to create test methods
     - Command for testing - pytest
+4. Configure Dockerhub:
+    - Create an account on dockerhub where we can later the docker image which can pulled anywhere to run
+5. Dockerise the Application:
+    - Create Dockerfile to define the docker image for application
+    - Build the docker - docker build -t <your_username>/my-private-repo .
+    - Run it locally - docker run -d -p 8080:8080 <your_username>/my-private-repo
+    - Push the docker image - docker push <your_username>/my-private-repo
+6. 
+
+
