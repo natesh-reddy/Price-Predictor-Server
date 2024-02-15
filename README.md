@@ -46,3 +46,14 @@ This API predicts the price of a house based on input features, currently it tak
 - Predict
    - curl "http://localhost:8080/" - This will send a success message in return on terminal - "Hello, terminal user!"
    - Else navigate to http://localhost:8080 in your web browser to access the home page.
+ 
+
+
+# Steps to deploy on EC2 instance and run testing pipeline -
+
+1. Write the code for Rest API. I used flask server as my framework
+2. Try to run it locally to check all the endpoints
+3. Configure Test:
+    - Install pytest
+    - Write the code inside test_filename.py to create test methods
+    - Command for testing - pytest
