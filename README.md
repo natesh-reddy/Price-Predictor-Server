@@ -75,7 +75,20 @@ This API predicts the price of a house based on input features, currently it tak
     - Locally check permission of rsa keys - ls -al pem_key_file
     - Change permission - chmod 600 pem_key_file
     - Connect - ssh -I pem_key_file ec2-user@ipaddress
-9. 
+9. Run docker on EC2:
+    - Install docker -  sudo yum install docker
+    - Open docker app - sudo service start docker
+    - Check status - sudo service docker status
+    - Check images - sudo docker images
+    - Pull image - sudo docker pull image_name
+    - Run docker - sudo docker run -d -p 80:8080 image_name
+    - Check logs - sudo docker logs image_name/id
+    - Check code - curl localhost:8080/
+    - Now copy public ip of instance and check that on browser
+
+
+
+
 
 
 
